@@ -1,0 +1,12 @@
+html[dir="ltr"] .myAppDemoWT .myCustomButton .myCustomText {
+  margin-right: 0.125rem;
+}
+
+html[dir="rtl"] .myAppDemoWT .myCustomButton .myCustomText {
+  margin-left: 0.125rem;
+}
+
+.myAppDemoWT .myCustomText {
+  display: inline;
+  font-weight: bold;
+}

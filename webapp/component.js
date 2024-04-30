@@ -17,7 +17,7 @@ sap.ui.define(
         //set data model
         let oData = {
           recipient: {
-            name: "",
+            name: "UI5",
           },
         };
 
