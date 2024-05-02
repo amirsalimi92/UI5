@@ -1,0 +1,13 @@
+manifest.json:
+
+sap.ui5 > models > invoice :
+
+We had:
+"type": "sap.ui.model.json.JSONModel",
+"uri": "Invoices.json"
+
+instead of:
+"dataSource": "invoiceRemote"
+
+because we didn't use ODATA before. Now we point the address of ODATA with
+invoiceRemote, that defined in sap.app>dataSources in manifest.json!
