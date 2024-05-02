@@ -1,8 +1,11 @@
 sap.ui.define(["sap/ui/core/mvc/Controller"], function (Controller) {
   "use strict";
-  return Controller.extend("sap.ui.demo.walkthrough.App", {});
+  return Controller.extend("sap.ui.demo.walkthrough.App", {
+    onOpenDialog: function () {
+      this.getOwnerComponent().openHelloDialog();
+    },
+  });
 });
-
 /**
       // JSONModel, ResourceModel Should be define in function and we have to use override too
       //  */
