@@ -6,6 +6,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller"], function (Controller) {
     },
   });
 });
+
 /**
       // JSONModel, ResourceModel Should be define in function and we have to use override too
       //  */
