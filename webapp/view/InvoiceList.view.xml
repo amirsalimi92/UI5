@@ -23,7 +23,10 @@
                     type: 'sap.ui.model.type.Currency', 
                     formatOptions: {showMeasure: false, preserveDecimals: false}}" 
                 numberUnit="{view>/currency}"
-                numberState="{= ${invoice>ExtendedPrice} > 50 ? 'Error' : 'Success'}">
+                numberState="{= ${invoice>ExtendedPrice} > 50 ? 'Error' : 'Success'}"
+                type="Navigation"
+                press="onPress">
+
                     <firstStatus>
                         <ObjectStatus text="{path: 'invoice>Status', formatter: '.formatter.statusText'}"/>
                     </firstStatus>
