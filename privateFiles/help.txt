@@ -11,3 +11,8 @@ instead of:
 
 because we didn't use ODATA before. Now we point the address of ODATA with
 invoiceRemote, that defined in sap.app>dataSources in manifest.json!
+
+
+
+UI5 Debugging:
+Ctrl+alt+shift+S
